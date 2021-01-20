@@ -7,7 +7,7 @@ function Nav({cartQty}) {
         <nav className='navigation'>
             <h3>Logo</h3>
             <ul className='nav-links'>
-                <NavLink exact to='/' className='navStyle' activeStyle={{color:'orange'}}>
+                <NavLink exact to='/shopping-cart' className='navStyle' activeStyle={{color:'orange'}}>
                     <li>Home</li>
                 </NavLink>
                 <NavLink exact to='/shop' className='navStyle' activeStyle={{color:'orange'}}>
