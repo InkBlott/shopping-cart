@@ -41,7 +41,7 @@ function Routes() {
         <Router>
             <Nav cartQty={getCartCount}/>
             <Switch>
-                <Route exact path='/shopping-cart' component={Home}/>
+                <Route exact path='/' component={Home}/>
                 <Route exact path='/shop'>
                     <ItemContainer items={shopItems} adder={itemAdder}/>
                 </Route>
